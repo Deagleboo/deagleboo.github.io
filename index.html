@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tfe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000; /* Arka planı siyah yapar */
+            color: #fff; /* Yazı rengini beyaz yapar */
+        }
+        .menu {
+            background-color: #6a0dad; /* Kapalı parlak mor rengi */
+            overflow: hidden;
+            border-radius: 10px; /* Kenarları yuvarlatır */
+            display: flex;
+            justify-content: center; /* Menü öğelerini ortalar */
+            padding: 10px;
+            margin-bottom: 20px; /* İçerik ile menü arasına boşluk bırakır */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Menüye gölge efekti */
+        }
+        .menu a {
+            color: #fff; /* Menü öğelerinin yazı rengini beyaz yapar */
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            border-radius: 10px; /* Kenarları yuvarlatır */
+            transition: background-color 0.3s, box-shadow 0.3s; /* Geçiş efektleri */
+            font-weight: bold; /* Menü öğelerini kalın yapar */
+            font-size: 16px; /* Yazı boyutunu büyütür */
+        }
+        .menu a:hover {
+            background-color: #8a2be2; /* Açık parlak mor rengi */
+            color: #fff; /* Üzerine gelindiğinde yazı rengini beyaz yapar */
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4); /* Üzerine gelindiğinde gölgeyi artırır */
+        }
+        .menu .title {
+            font-size: 24px;
+            color: #fff; /* Menü başlığının rengini beyaz yapar */
+            text-transform: uppercase; /* Metni büyük harfe çevirir */
+            margin-right: auto;
+            margin-left: 20px;
+            font-weight: bold; /* Başlık metnini kalın yapar */
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333; /* Koyu gri arka plan */
+            color: #fff; /* Beyaz yazı rengi */
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <span class="title">Tfe | Turkish Armed Forces</span>
+        <a href="index.html">Home</a>
+        <a href="services.html">Linkler</a> <!-- Bu link 'services.html' sayfasına yönlendirir -->
+        <a href="about.html">About Us</a>
+    </div>
+
+    <div class="content">
+        <h1>Welcome!</h1>
+        <p>Welcome To The Tfe.</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Tfe. All rights reserved. Unauthorized duplication or publication of any materials from this site is prohibited.</p>
+    </footer>
+</body>
+</html>
